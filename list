@@ -1,0 +1,4 @@
+list=['maya',9,7,0,1,34,'ajit','kumar',int]
+for item in list:
+    if type(item) is int and item>6:
+        print(item)
